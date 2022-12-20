@@ -3,4 +3,5 @@ def print_file_as_uppercase() -> None:
     file_name = input("Enter a file name: ")
 
 
-print_file_as_uppercase()
+if __name__ == "__main__":
+    print_file_as_uppercase()
